@@ -120,13 +120,13 @@ h2 {
 }
 
 img {
-    float: left;
+    /* float: left; */
     margin: auto;
     padding: 20px;
 
 }
 
-img::after {
+.pimg::after {
     content: '';
     display: table;
     clear: both;
@@ -175,4 +175,11 @@ img1 {
     background-color:#666666;
     color: white;
     text-align: center;
+}
+
+.pimg {
+    float: left;
+    margin: auto;
+    padding: 20px;
+
 }
