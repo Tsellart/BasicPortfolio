@@ -1,19 +1,27 @@
 .containerH {
- width: 80%;
- margin: 0 auto;
+ width: 960px;
+ margin: auto;
+ 
 }
 
 header {
-    background: #4aaaa5;
+    background: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 0;
 }
 
-.name {
+h1 {
     display: block;
-    width: 100px;
-    padding: 10px 0;
     margin: auto;
-    background: white;
+    background-color: #4aaaa5;
+    color: white;
     float: left;
+    font-size: 38px;
+    text-align: center;
+    line-height: 250%;
+    border: 1px black;
+    width: 200px;
+    height: 80px;
 
 }
 
@@ -60,6 +68,7 @@ nav a:hover {
     border: 1px black;
     padding: 25px;
     margin: 25px;
+    color: black;
 
 }
 
@@ -72,6 +81,7 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    color: black;
 
 }
 
@@ -82,6 +92,7 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    
 }
 
 input[type=submit]:hover {
@@ -94,4 +105,63 @@ input[type=submit]:hover {
     background: #f2f2f2;
     padding: 20px;
     margin: auto;
+    color: black;
+}
+
+body {
+    background-color:lightgray;
+}
+
+h2 {
+    text-align: left;
+    color: #4aaaa5;
+
+}
+
+img {
+    float: left;
+    margin: auto;
+    padding: 20px;
+
+}
+
+img::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+p {
+    margin: auto;
+}
+
+div.a {
+    text-indent: 50px;
+}
+
+.column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+img1 {
+    border-radius: 50%;
+    height: 25%;
+    width: 25%;
+
 }
