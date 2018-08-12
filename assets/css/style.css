@@ -106,6 +106,7 @@ input[type=submit]:hover {
     padding: 20px;
     margin: auto;
     color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -175,6 +176,7 @@ img1 {
     background-color:#666666;
     color: white;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .pimg {
